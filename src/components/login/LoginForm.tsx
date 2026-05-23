@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Button from '../common/Button';
 import { typo } from '../../styles/typography';
 
 export default function LoginForm() {
+  const navigate = useNavigate();
   const [id, setId] = useState('');
   const [password, setPassword] = useState('');
 
@@ -38,7 +40,12 @@ export default function LoginForm() {
       </span>
       <p className="self-center">
         <span className={`${typo.B2_Rg} text-[#45464D]`}>계정이 없으신가요? </span>
-        <span className={`${typo.B2_Bd} text-black`}>회원가입</span>
+        <span
+          className={`${typo.B2_Bd} text-black cursor-pointer`}
+          onClick={() => navigate('/signup')}
+        >
+          회원가입
+        </span>
       </p>
     </form>
   );
