@@ -1,7 +1,7 @@
+import Login from './pages/Login';
+
 function App() {
-  return (
-    <div className="text-red-400">app</div>
-  )
+  return <Login />;
 }
 
-export default App
+export default App;
