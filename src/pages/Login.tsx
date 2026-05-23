@@ -1,10 +1,12 @@
 import LoginForm from '../components/login/LoginForm';
+import Navbar from '../components/common/Navbar';
 import { typo } from '../styles/typography';
 
 export default function Login() {
   return (
-    <div className="min-h-screen bg-white px-6 pt-[50px]">
-      <div className="flex flex-col items-center">
+    <div className="min-h-screen bg-white">
+      <Navbar title="Routiner" />
+      <div className="flex flex-col items-center px-6 pt-[50px]">
         <h1 className={`${typo.Display_Sb} tracking-[-0.32px] text-[#0B1C30] text-center`}>
           환영합니다!
         </h1>
