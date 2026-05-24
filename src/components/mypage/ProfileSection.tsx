@@ -7,7 +7,7 @@ interface ProfileSectionProps {
 
 export default function ProfileSection({ nickname, onEditProfile }: ProfileSectionProps) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <div className="flex items-baseline gap-[4px]">
         <span className={`${typo.H1_Bd} text-[#191C1D] tracking-[-0.24px]`}>
           {nickname}
