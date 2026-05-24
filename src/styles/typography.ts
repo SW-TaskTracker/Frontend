@@ -28,11 +28,16 @@ export const typo = {
   // ── Display ──────────────────────────────
   Display_Sb: "font-pretendard-sb text-display",
 
+  // ── Heading ──────────────────────────────
+  H1_Bd: "font-pretendard-bd text-h1",
+
   // ── Title ────────────────────────────────
   T1_Eb: "font-pretendard-eb text-t1",
+  T1_Sb: "font-pretendard-sb text-t1",
   T1_Md: "font-pretendard-md text-t1",
 
   // ── Body ─────────────────────────────────
+  B2_Md: "font-pretendard-md text-b2",
   B2_Bd: "font-pretendard-bd text-b2",
   B2_Rg: "font-pretendard-rg text-b2",
   B4_Sb: "font-pretendard-sb text-b4",
